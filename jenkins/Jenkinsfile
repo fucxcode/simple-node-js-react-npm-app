@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                nodejs('nodejs_10.15.0')
+                // nodejs('nodejs_10.15.0')
                 sh 'npm install'
             }
         }
